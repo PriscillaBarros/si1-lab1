@@ -89,7 +89,7 @@ body  {
 
 #mainnav li a{
 	text-decoration: none;
-	color: #0000ff;
+	color: #809AED;
 	}
 
 #mainnav li a:HOVER{
@@ -98,18 +98,19 @@ body  {
 	background-color: #1452F2;
 	}
 #menu  {  	
-	float: right;  	
-	width: 250px;
-	border-left: 1px solid #d0f2e1;  	
-	padding-left: 15px;
+	float: left;  	
+	width: 200px;
+	height: 250px;
+	border-right: 5px solid #153FAD;
 	} 
 	
 	
 #infos  {  	
-	float: left;  	
+	float: right;  	
 	width: 250px;
-	border-rigth: 3px solid #d0f2e1;  	
-	padding-left: 5px;
+	border-right-width: 1px solid #153FAD;
+	margin-right: 3px solid #153FAD;
+	padding-right: 5px solid #153FAD;
 	} 
 	
 #menu ul{
@@ -146,7 +147,7 @@ body  {
 	} 
 	
 .pag_principal .button:HOVER{
-	  background: #91ba7d;
+	  background: #7D89BA;
     
 }
 
@@ -154,8 +155,8 @@ body  {
 
 		
 .form-cadastrar{
-        width: 400px;
-        height: 270px;
+    width: 400px;
+    height: 270px;
     margin-right: auto;
     margin-left: auto;
     background: #EEE;
@@ -179,7 +180,7 @@ body  {
  
  .form-cadastrar h1 >span {
 	display: block;
-    font-size: 11px;
+    font-size: 20px;
 }
  
 .form-cadastrar label {
@@ -203,7 +204,10 @@ body  {
 
  
 .form-cadastrar input[type=submit] {
-	width: 185px; height: 52px; float: right; padding: 10px 15px; margin: 0 15px 0 0;
+	
+    width: 132px;
+    height: 42px;
+	padding: 10px 15px;
 	-moz-box-shadow: 0px 0px 5px #999;-webkit-box-shadow: 0px 0px 5px #999;
 	border: 1px solid #65925c;
 	background-color:8fc384;
@@ -211,26 +215,25 @@ body  {
 }  
 
 .form-cadastrar .button {
-    background: #6fb14f;
-    border: none;
-    padding: 10px 25px 10px 25px;
+    background: #1452DA;;
     color: #FFF;
- 	margin-right: 60px;
-    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90px;
     float: right;
     
 }
 
 
 .form-cadastrar .button:hover {
-    background: #91ba7d
+    background: #7D89BA
 }
 #footer {
 	clear: both;
 	color: #d0f2e1;
 	text-align: right;
 	font-size: 90%;
-	background: #6E8866;
+	background: #3025D2;
 	padding: 10px;
 	
 	}
